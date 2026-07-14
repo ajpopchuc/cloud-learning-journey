@@ -1,4 +1,4 @@
-# Manuel's Cloud Learning Journey
+# Ajpop's Cloud Learning Journey
 Welcome! This repository serves as my professional portfolio, where I document my hands-on projects, technical laboratories, and architectures as I progress toward becoming a Cloud Architect. Here, you will find my journey through cloud fundamentals, core services, and advanced corporate infrastructures.
 
 ## Laboratorios Realizados

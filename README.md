@@ -28,6 +28,16 @@ We use the command `chmod 400 <key-name>.pem` to harden the file. In Linux, perm
 
 ---
 
+#### 3. IAM & Cloud Financial Management (FinOps)
+Security and cost governance are foundational pillars for any Cloud Architect:
+
+*   **Principle of Least Privilege:** Granting only the exact permissions required for a task. Always avoid using the Root Account for daily operations.
+*   **Policy Evaluation Logic:** AWS evaluates policies with a "Deny-by-default" approach. An explicit `"Deny"` statement overrides any `"Allow"` statement regardless of context.
+*   **IAM Roles over Static Keys:** Assigning IAM Roles directly to services (e.g., EC2 accessing S3) prevents hardcoding permanent access keys into applications.
+*   **Proactive Cost Management:** Setting up **AWS Budgets** with forecasted thresholds allows team leads to make operational adjustments *before* incurring unexpected expenses.
+
+---
+
 ## Completed Labs
 
 | Status | Lab | Description | Link |

@@ -60,6 +60,7 @@ Divided the primary CIDR block across Availability Zone `us-east-2a`:
 2. Allocated a static **Elastic IP (EIP)** to the NAT Gateway.
 3. Created the private route table `rtb-privada-1-lab` with the route `0.0.0.0/0` $\rightarrow$ `nat-gateway-1-lab`.
 4. Associated `my-subnet-private-1` with this route table.
+![VPC Resource Map](images/04-nat-gateway.png)
 
 ---
 

@@ -9,7 +9,7 @@ In this hands-on lab, I built a custom isolated virtual network (**Virtual Priva
 
 The resulting resource map illustrates the connectivity between subreds, route tables, and gateway components:
 
-![VPC Resource Map](img/04-resource-map.png)
+![VPC Resource Map](images/04-resource-map.png)
 
 ---
 
@@ -29,7 +29,7 @@ The resulting resource map illustrates the connectivity between subreds, route t
 * **IPv4 CIDR Block:** `10.0.0.0/16`
 * **Tenancy:** Default
 
-![VPC Creation](img/01-vpc-created.png)
+![VPC Creation](images/01-vpc-created.png)
 
 ---
 
@@ -41,7 +41,7 @@ Divided the primary CIDR block across Availability Zone `us-east-2a`:
 | `my-subnet-public-1` | `10.0.1.0/24` | 256 | 251 | Public |
 | `my-subnet-private-1` | `10.0.2.0/24` | 256 | 251 | Private |
 
-![Subnets List](img/02-subnets.png)
+![Subnets List](images/02-subnets.png)
 
 ---
 
@@ -51,7 +51,7 @@ Divided the primary CIDR block across Availability Zone `us-east-2a`:
 3. Added a default route: `0.0.0.0/0` $\rightarrow$ `my-igw-1-lab`.
 4. Associated `my-subnet-public-1` with this route table.
 
-![Internet Gateway](img/03-internet-gateway.png)
+![Internet Gateway](images/03-internet-gateway.png)
 
 ---
 

@@ -9,7 +9,7 @@ In this hands-on lab, I built a custom isolated virtual network (**Virtual Priva
 
 The resulting resource map illustrates the connectivity between subreds, route tables, and gateway components:
 
-![VPC Resource Map](images/04-resource-map.png)
+![VPC Resource Map](images/06-resource-map.png)
 
 ---
 

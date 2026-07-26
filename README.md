@@ -33,7 +33,7 @@ We use the command `chmod 400 <key-name>.pem` to harden the file. In Linux, perm
 | Status | Lab | Description | Link |
 | :---: | :--- | :--- | :--- |
 | ✅ | **01. AWS Fundamentals & Security** | Root MFA, IAM Least Privilege, AWS Budgets & FinOps | [Explore Module 01](./01-aws-fundamentals/) 
-| 🔄 | AWS Compute & Networking | Deploying EC2 instances within a custom VPC. | *Coming Soon* |
+| ✅ | AWS VPC & Networking | Creat VPC, Subnets, rout-tables, nat-gateway | [Explore Module 02](./02-vpc-networking/)  |
 
 ## Enterprise Capstone Project
 *Space reserved for the final enterprise-grade infrastructure project.*

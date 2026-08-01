@@ -27,13 +27,16 @@ We use the command `chmod 400 <key-name>.pem` to harden the file. In Linux, perm
 *   **Write Protection:** By withholding write permissions (`2`) even from the owner, we prevent accidental modification or corruption of the key file.
 
 ---
+#### 3. Zero-Trust Access with AWS SSM Session Manager
+Traditional SSH access requires exposing Port 22 to the internet and managing fragile `.pem` key pairs. Using **AWS Systems Manager (SSM) Session Manager**, instances can be accessed securely over HTTPS (Port 443) without public IPs or open inbound Security Group rules. Access control is centralized via **IAM Roles** (`AmazonSSMManagedInstanceCore`), providing full auditability and eliminating attack vectors.
 
 ## Completed Labs
 
 | Status | Lab | Description | Link |
 | :---: | :--- | :--- | :--- |
 | ✅ | **01. AWS Fundamentals & Security** | Root MFA, IAM Least Privilege, AWS Budgets & FinOps | [Explore Module 01](./01-aws-fundamentals/) 
-| ✅ | AWS VPC & Networking | VPC, Subnets, rout-tables, nat-gateway | [Explore Module 02](./02-vpc-networking/)  |
+| ✅ | **02. AWS VPC & Networking** | VPC, Subnets, rout-tables, nat-gateway | [Explore Module 02](./02-vpc-networking/)  |
+| ✅ | **03. EC2 & SSM Zero-Trust** | Instance Families, Payment models, Deploy, SSM Session Manager | [Explore Module 03](./03-ec2-ssm/) |
 
 ## Enterprise Capstone Project
 *Space reserved for the final enterprise-grade infrastructure project.*
